@@ -29,7 +29,7 @@ else if ((n2 > n1) && (n2 > n3)) {
     mid = n3;
     min = n1;
     }
-  } 
+    } 
 
 else if ((n3 > n2) && (n3 > n1 )) {
   max = n3;
@@ -41,9 +41,9 @@ else if ((n3 > n2) && (n3 > n1 )) {
     mid = n2;
     min = n1;
     }
-  }
+    }
   cout << "MAX: " << max << endl;
-  cout << "MID:" << mid << endl;
+  cout << "MID: " << mid << endl;
   cout << "MIN: " << min << endl;
   return (0);
   }
